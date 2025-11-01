@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sharjah Metro Awareness Campaign</title>
+  <meta name="description" content="A call for better connectivity and sustainable commuting across the UAE."/>
+  <style>
+    :root{
+      --accent:#c62828; /* metro red */
+      --dark:#2b2b2b;
+      --muted:#6b6b6b;
+      --bg:#f7f7f8;
+      --card:#ffffff;
+      --maxw:1280px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--dark);line-height:1.6}
+    .container{max-width:var(--maxw);margin:40px auto;padding:0 20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:54px;height:54px;border-radius:10px;background:linear-gradient(180deg,var(--accent),#8b1212);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    nav a{margin-left:18px;color:var(--dark);text-decoration:none;font-weight:600}
+    nav a:hover{color:var(--accent)}
+    .hero{display:grid;grid-template-columns:1fr 380px;gap:28px;margin-top:28px;align-items:start}
+    .card{background:var(--card);padding:22px;border-radius:12px;box-shadow:0 6px 18px rgba(30,30,30,0.06)}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin-top:12px}
+    .stats{display:flex;gap:12px;margin-top:18px}
+    .stat{background:linear-gradient(180deg,#fff, #fbfbfb);padding:12px;border-radius:8px;flex:1;text-align:center}
+    .sections{margin-top:28px;display:grid;gap:18px}
+    section{scroll-margin-top:90px}
+    .two-col{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    pre.letter{white-space:pre-wrap;font-family:inherit;background:#fafafa;padding:16px;border-radius:8px;border:1px solid #eee}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700}
+    footer{margin-top:36px;padding:20px 0;text-align:center;color:var(--muted);font-size:14px}
+    .media-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .media-grid img{width:100%;height:110px;object-fit:cover;border-radius:8px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}.media-grid{grid-template-columns:repeat(2,1fr)}nav{display:none}}
+    @media (max-width:520px){.media-grid img{height:90px}}
+    .contact-list{list-style:none;padding:0;margin:0}
+    .contact-list li{padding:8px 0;color:var(--dark)}
+    .small-muted{color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">SM</div>
+        <div>
+          <div style="font-weight:800">Sharjah Metro Awareness Campaign</div>
+          <div class="small-muted">A call for better connectivity and sustainable commuting across the UAE.</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#letter">Formal Letter</a>
+        <a href="#oped">Op‑Ed</a>
+        <a href="#podcast">Podcast</a>
+        <a href="#media">Media</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div>
+        <div class="card">
+          <h1>Connect Sharjah to the Metro Grid</h1>
+          <p class="lead">Thousands of commuters travel daily between Sharjah and Dubai. This campaign advocates for a sustainable Sharjah–Dubai metro link and immediate measures to reduce peak-hour overcrowding.</p>
+          <div class="stats">
+            <div class="stat">
+              <div style="font-weight:800">230M+</div>
+              <div class="small-muted">annual Dubai Metro riders (2023, RTA)</div>
+            </div>
+            <div class="stat">
+              <div style="font-weight:800">Sharjah</div>
+              <div class="small-muted">no metro system — high commuter outflow</div>
+            </div>
+          </div>
+          <div style="margin-top:18px">
+            <a class="btn" href="#contact">Join the cause</a>
+            <a class="btn" style="background:#fff;color:var(--accent);margin-left:10px;border:1px solid #eee" href="#media">See media</a>
+          </div>
+        </div>
+
+        <div class="sections">
+
+          <section id="about" class="card">
+            <h2>About the Issue</h2>
+            <p>Sharjah residents who rely on the Dubai Metro face two major challenges: overcrowding on Dubai Metro peak services (especially the Red Line), and the absence of a metro network inside Sharjah, which forces many residents to travel by bus or car to reach the Dubai system. This campaign collects evidence, personal stories, and policy recommendations to present to the RTA and the Sharjah Executive Council.</p>
+          </section>
+
+          <section id="letter" class="card">
+            <h2>Formal Proposal Letter</h2>
+            <div class="two-col">
+              <div>
+                <pre class="letter">To: Roads and Transport Authority (RTA Dubai) & Sharjah Executive Council
+
+Subject: Urgent Proposal to Address Metro Overcrowding and the Need for a Sharjah Metro Link
+
+Respected Authorities,
+
+I am writing on behalf of daily commuters residing in Sharjah who rely on the Dubai Metro system for essential transportation to schools, universities, and workplaces. While the Dubai Metro has been globally praised for its efficiency, the current peak-hour congestion has reached critical levels — with trains becoming so overcrowded that many commuters are unable to board despite multiple train arrivals. This issue not only creates delays and physical exhaustion but also raises serious safety concerns, particularly on the Red Line between Union and BurJuman stations.
+
+Furthermore, Sharjah currently does not have a metro system of its own, resulting in tens of thousands of residents relying on buses or private vehicles just to reach the nearest Dubai Metro station. This increases road congestion, carbon emissions, and pressure on existing infrastructure. A strategic collaborative effort between Sharjah and Dubai — including the introduction of a dedicated Sharjah Metro line or direct metro extension — would provide long-term, sustainable relief.
+
+I kindly urge both authorities to consider immediate peak-hour frequency optimization for the Dubai Metro, and to initiate a joint Sharjah–Dubai feasibility study for metro integration. This solution aligns directly with the UAE’s Vision 2030 goals of sustainability, urban innovation, and citizen wellbeing.
+
+Thank you for your leadership and continued commitment to improving public transportation.
+
+Sincerely,
+Zaid Mtanious
+Grade 12 Student, ADIS Sharjah</pre>
+              </div>
+              <aside class="card" style="padding:16px">
+                <h4>How this helps</h4>
+                <p class="small-muted">This letter is formatted for official submission. Replace the salutation with the relevant recipient names when you send it (e.g., RTA CEO, Sharjah Executive Council Chair).</p>
+              </aside>
+            </div>
+          </section>
+
+          <section id="oped" class="card">
+            <h2>Persuasive Op‑Ed</h2>
+            <p class="small-muted">Use this op-ed for school newspapers, local blogs, or to pitch to regional publications.</p>
+            <article>
+              <p>Every morning, thousands of Sharjah residents set their alarms a little earlier — not to catch an early workout or savor breakfast, but simply to survive the morning commute. They pour into cars, buses, and shared rides, inching toward the Dubai Metro stations, only to find themselves waiting outside packed trains, pressed shoulder to shoulder with other exhausted commuters. This daily struggle is not just an inconvenience; it’s a silent crisis in our urban planning.</p>
+
+              <p>Sharjah and Dubai are twin cities — interconnected by purpose, economy, and community — yet divided by transportation. The absence of a metro system in Sharjah, combined with the severe overcrowding on the Dubai Metro’s Red Line, has made daily commuting a test of endurance. Students arrive at school drained before classes begin. Employees arrive late despite leaving home early. Families spend more time in traffic than they do together at dinner. This is not the vision of progress that the UAE strives for.</p>
+
+              <p>Public transport defines the rhythm of a city’s life. Expanding the metro network into Sharjah would not only reduce road congestion and carbon emissions but also enhance productivity and wellbeing. According to the RTA’s 2023–24 figures, more than 230 million riders used the Dubai Metro last year — a substantial increase from previous years — placing immense strain on the Red Line. Imagine fewer cars clogging Al Ittihad Road, cleaner air, and quieter mornings. A Sharjah Metro link would empower thousands to move freely, sustainably, and safely — all while supporting the UAE’s Vision 2030 goals.</p>
+
+              <p>Of course, infrastructure projects require time, funding, and coordination. Yet the <em>cost of inaction</em> is far greater: lost hours, heightened stress, and diminished quality of life for tens of thousands. The solution is not just to increase train frequency during peak hours — though that would be a welcome immediate fix — but to envision a regional network that connects both emirates as seamlessly as their economies already are.</p>
+
+              <p>Sharjah and Dubai have repeatedly proven that collaboration can turn challenges into milestones. It’s time to extend that spirit underground — in steel, rail, and shared vision. A metro link between the two cities is not merely a transportation upgrade; it’s an investment in people, progress, and the promise of a better commute for all.</p>
+            </article>
+          </section>
+
+          <section id="podcast" class="card">
+  <h2>Podcast (60-second segment)</h2>
+  <p class="small-muted">
+    In this short audio segment, our hosts discuss the daily challenges faced by Sharjah residents who rely on the Dubai Metro. 
+    The episode explores overcrowded trains, long commutes, and the urgent need for a metro link that connects Sharjah directly to Dubai. 
+    It highlights personal commuter stories and proposes sustainable solutions to improve urban mobility across the two emirates.
+  </p>
+  <div style="margin-top:12px">
+    <audio controls style="width:100%">
+      <source src="/assets/podcast.mp3" type="audio/mpeg">
+      Your browser does not support the audio element. Upload <code>assets/podcast.mp3</code> to enable playback.
+    </audio>
+  </div>
+</section>
+
+          <section id="media" class="card">
+  <h2>Instagram & Media</h2>
+  <p class="small-muted">Scenes from Dubai Metro stations and daily commuter life.</p>
+  
+  
+  <div class="media-grid" style="margin-top:12px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Dubai_Metro_train_on_viaduct_near_Jebel_Ali_station.jpg" alt="Dubai Metro train on viaduct near Jebel Ali">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Dubai_Metro_inside_view.jpg" alt="Inside view of Dubai Metro train cabin">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Dubai_Metro_station_interior.jpg" alt="Dubai Metro station interior">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Dubai_Metro_Union_Station.jpg" alt="Union Station of Dubai Metro">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Dubai_Metro_on_Sheikh_Zayed_Road.jpg" alt="Dubai Metro running on Sheikh Zayed Road">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Dubai_Metro_bridge_view.jpg" alt="Dubai Metro bridge over highway">
+  </div>
+
+
+  <p style="margin-top:12px" class="small-muted">
+    Instagram: <a href="https://www.instagram.com/metrolinkuae?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@metrolinkuae</a>
+  </p>
+</section>
+
+          <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p class="small-muted"></p>
+            <ul class="contact-list" style="margin-top:10px">
+              <li><strong>Email:</strong> <span class="small-muted">wadihalkhouri@gmail.com</span></li>
+              <li><strong>Phone:</strong> <span class="small-muted">+971 52 600 25250</span></li>
+              <li><strong>Creator:</strong> <span>Zaid Mtanious, Grade 12, ADIS Sharjah</span></li>
+            </ul>
+            <div style="margin-top:12px" class="small-muted"></div>
+          </section>
+
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Quick actions</h3>
+          <p class="small-muted">Download the formal letter or copy it to send to officials.</p>
+          <div style="margin-top:12px">
+            <a class="btn" href="#letter">Copy Letter</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h4>Campaign goals</h4>
+          <ul class="small-muted">
+            <li>Short-term: peak-hour frequency optimization</li>
+            <li>Medium-term: joint Sharjah–Dubai feasibility study</li>
+            <li>Long-term: metro link or extension</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Created by Zaid Mtanious — Grade 12, ADIS Sharjah 
+    </footer>
+  </div>
+</body>
+</html>
